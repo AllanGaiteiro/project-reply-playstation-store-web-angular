@@ -1,0 +1,13 @@
+div {
+  width: 100vw;
+  height: 36px;
+  background: #000000;
+  color: white;
+  display: flex;
+  justify-content: end;
+}
+div h2 {
+  margin: 0px;
+  line-height: 36px;
+  margin-right: 10px;
+}
