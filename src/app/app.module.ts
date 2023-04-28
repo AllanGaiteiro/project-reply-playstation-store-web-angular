@@ -15,6 +15,8 @@ import { PlaystationPlusMoreAboutComponent } from './components/playstation-plus
 import { PlaystationStarsMoreAboutComponent } from './components/playstation-stars-more-about/playstation-stars-more-about.component';
 import { SectionDestaquesComponent } from './components/section-destaques/section-destaques.component';
 import { SonyMoreAboutComponent } from './components/sony-more-about/sony-more-about.component';
+import { ButtonSectionComponent } from './shared/button-section/button-section.component';
+import { NavigationSonyComponent } from './shared/navigation-sony/navigation-sony.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { SonyMoreAboutComponent } from './components/sony-more-about/sony-more-a
     PlaystationStarsMoreAboutComponent,
     SonyMoreAboutComponent,
     FooterComponent,
-    HeaderSonyComponent
+    HeaderSonyComponent,
+    ButtonSectionComponent,
+    NavigationSonyComponent
   ],
   imports: [
     BrowserModule

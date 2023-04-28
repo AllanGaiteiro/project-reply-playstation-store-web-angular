@@ -1,0 +1,23 @@
+ul {
+  display: flex;
+  list-style: none;
+}
+img {
+  width: 25px;
+  height: 25px;
+}
+li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10.96px;
+  line-height: 21px;
+  /* identical to box height, or 192% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.4px;
+  color: #757575;
+  margin-left: 10px;
+  margin-right: 10px;
+}
