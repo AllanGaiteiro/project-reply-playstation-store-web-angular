@@ -1,0 +1,37 @@
+.section {
+  margin-top: 100px;
+  width: 100vw;
+  position: relative;
+  box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.12);
+}
+
+.banner {
+  top: 40px;
+  width: 100vw;
+  height: 350px;
+  background-image: url(https://image.api.playstation.com/pr/bam-art/146/087/c2365174-0742-4f05-9dc9-210b8bed59f4.jpg?w=1920&thumb=false);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 80px;
+}
+
+.section p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  /* identical to box height, or 162% */
+
+  display: flex;
+  align-items: center;
+
+  color: #6b6b6b;
+  padding: 0px 80px;
+  padding-bottom: 30px;
+}
