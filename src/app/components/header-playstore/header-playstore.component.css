@@ -1,0 +1,27 @@
+.header {
+  width: 100vw;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  height: 64px;
+  background: rgba(255, 255, 255, 0.002);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.12);
+  background-color: white;
+}
+
+.logo {
+  margin: 0px 30px;
+  line-height: 64px;
+}
+
+.logo-store {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+app-navigation-playstation-store {
+  position: absolute;
+  top: 0px;
+  right: 40%;
+}
