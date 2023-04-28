@@ -1,0 +1,8 @@
+main {
+  width: 1222px;
+  height: 611px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 300px;
+}
