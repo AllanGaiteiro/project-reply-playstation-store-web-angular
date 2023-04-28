@@ -1,0 +1,7 @@
+.card {
+  height: 290px;
+  width: 290px;
+  border-radius: 4px;
+  margin: 8px;
+  background-image: url(https://image.api.playstation.com/pr/bam-art/156/475/a63aa02f-884a-4b3f-ab48-c0d4da773937.png?w=440&thumb=false);
+}
