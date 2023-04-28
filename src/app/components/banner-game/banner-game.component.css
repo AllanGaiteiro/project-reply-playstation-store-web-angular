@@ -1,0 +1,27 @@
+header {
+  position: relative;
+  width: 100vw;
+  height: 490px;
+  box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.12);
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+.banner img {
+  z-index: -1;
+}
+
+header img {
+  height: 390px;
+}
+
+.header {
+  position: absolute;
+  top: 40px;
+  width: 100vw;
+  height: 350px;
+  background-image: url(../../../assets/images/div.psw-l-anchor-bottom-left.png);
+  z-index: -1;
+}
