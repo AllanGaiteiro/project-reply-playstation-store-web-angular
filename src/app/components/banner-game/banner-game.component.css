@@ -23,5 +23,7 @@ header img {
   width: 100vw;
   height: 350px;
   background-image: url(../../../assets/images/div.psw-l-anchor-bottom-left.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   z-index: -1;
 }
