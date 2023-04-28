@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-
 @Component({
   selector: 'app-game-carrocel-shortly',
   templateUrl: './game-carrocel-shortly.component.html',
