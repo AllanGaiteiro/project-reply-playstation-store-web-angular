@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { BannerGameComponent } from './components/banner-game/banner-game.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -14,13 +15,22 @@ import { LogoSonyComponent } from './components/logo-sony/logo-sony.component';
 import { PlaystationPlusMoreAboutComponent } from './components/playstation-plus-more-about/playstation-plus-more-about.component';
 import { PlaystationStarsMoreAboutComponent } from './components/playstation-stars-more-about/playstation-stars-more-about.component';
 import { SectionDestaquesComponent } from './components/section-destaques/section-destaques.component';
+import { SectionMoreAboutComponent } from './components/section-more-about/section-more-about.component';
 import { SonyMoreAboutComponent } from './components/sony-more-about/sony-more-about.component';
+import { PageLatestComponent } from './pages/page-latest/page-latest.component';
 import { ButtonSectionComponent } from './shared/button-section/button-section.component';
 import { CardGameComponent } from './shared/card-game/card-game.component';
 import { CarrouselGameComponent } from './shared/carrousel-game/carrousel-game.component';
 import { MoreAboutSectionComponent } from './shared/more-about-section/more-about-section.component';
 import { NavigationPlaystationStoreComponent } from './shared/navigation-playstation-store/navigation-playstation-store.component';
 import { NavigationSonyComponent } from './shared/navigation-sony/navigation-sony.component';
+
+const routes: Routes = [
+
+  { path: 'latest', component: PageLatestComponent },
+  { path: '**', redirectTo: '/latest' }
+];
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,10 +52,15 @@ import { NavigationSonyComponent } from './shared/navigation-sony/navigation-son
     NavigationPlaystationStoreComponent,
     CardGameComponent,
     MoreAboutSectionComponent,
-    CarrouselGameComponent
+    CarrouselGameComponent,
+    SectionMoreAboutComponent,
+    PageLatestComponent
   ],
   imports: [
+    RouterModule.forRoot(routes),
     BrowserModule
+  ], exports: [
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
