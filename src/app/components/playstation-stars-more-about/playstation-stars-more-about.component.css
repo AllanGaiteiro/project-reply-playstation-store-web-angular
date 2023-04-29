@@ -9,9 +9,7 @@
   top: 40px;
   width: 100vw;
   height: 350px;
-  background-image: url(https://image.api.playstation.com/pr/bam-art/146/087/c2365174-0742-4f05-9dc9-210b8bed59f4.jpg?w=1920&thumb=false);
-  background-repeat: no-repeat;
-  background-size: cover;
+  object-fit: cover;
   z-index: -1;
 }
 .about {
@@ -22,10 +20,11 @@
 
 .section p {
   font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
   font-size: 13px;
-  line-height: 21px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+
   /* identical to box height, or 162% */
 
   display: flex;
