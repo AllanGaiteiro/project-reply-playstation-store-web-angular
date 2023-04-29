@@ -13,6 +13,10 @@
   margin: 5px;
   box-shadow: 0px 0px 0px 2px #004c8a;
   border-radius: 8px;
+  transition: 0.2s;
+}
+.carousel-item:hover {
+  border: 2px ridge black;
 }
 
 .carousel-next {
@@ -21,8 +25,12 @@
   right: -10px;
   width: 40px;
   height: 40px;
-
+  border: none;
   background: #0070cc;
   border-radius: 999px;
   color: white;
+}
+
+.carousel-next:hover {
+  background-color: #065494;
 }
