@@ -9,10 +9,10 @@
 }
 .game-border {
   margin: 0px;
-  border-radius: 8px;
+  border-radius: 15px;
   border: 2px solid white;
 }
 .game-border:hover {
   filter: contrast(90%);
-  border: 2px solid black;
+  border: 2px solid #004c8a;
 }
