@@ -1,4 +1,4 @@
-div {
+.logo-sony {
   width: 100vw;
   height: 36px;
   background: #000000;
@@ -7,7 +7,7 @@ div {
   justify-content: end;
   text-align: center;
 }
-div h2 {
+.logo-sony h2 {
   padding: 0px 10px;
   margin: 0px;
   line-height: 36px;

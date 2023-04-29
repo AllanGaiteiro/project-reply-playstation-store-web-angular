@@ -1,11 +1,9 @@
 import { Component } from '@angular/core';
-import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-game-carrocel-best-ten',
   templateUrl: './game-carrocel-best-ten.component.html',
   styleUrls: ['./game-carrocel-best-ten.component.css'],
-  providers: [NgbCarouselConfig],
 })
 export class GameCarrocelBestTenComponent {
   games = [
