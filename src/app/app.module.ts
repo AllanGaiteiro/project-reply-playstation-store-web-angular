@@ -24,6 +24,7 @@ import { CarrouselGameComponent } from './shared/carrousel-game/carrousel-game.c
 import { MoreAboutSectionComponent } from './shared/more-about-section/more-about-section.component';
 import { NavigationPlaystationStoreComponent } from './shared/navigation-playstation-store/navigation-playstation-store.component';
 import { NavigationSonyComponent } from './shared/navigation-sony/navigation-sony.component';
+import { CardGameBoldComponent } from './shared/card-game-bold/card-game-bold.component';
 
 const routes: Routes = [
 
@@ -54,7 +55,8 @@ const routes: Routes = [
     MoreAboutSectionComponent,
     CarrouselGameComponent,
     SectionMoreAboutComponent,
-    PageLatestComponent
+    PageLatestComponent,
+    CardGameBoldComponent
   ],
   imports: [
     RouterModule.forRoot(routes),
