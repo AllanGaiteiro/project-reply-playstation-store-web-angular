@@ -11,8 +11,9 @@
 }
 
 .logo {
-  margin: 0px 30px;
-  line-height: 64px;
+  margin: auto;
+  margin-left: 30px;
+  padding: 15px;
 }
 
 .logo-store {
@@ -24,5 +25,5 @@
 app-navigation-playstation-store {
   position: absolute;
   top: 0px;
-  right: 40%;
+  left: 25%;
 }
