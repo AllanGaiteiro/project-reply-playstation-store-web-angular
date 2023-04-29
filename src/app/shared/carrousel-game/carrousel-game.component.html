@@ -1,5 +1,4 @@
 <div class="carousel">
-    <div class="carousel-item" *ngFor="let game of games" [style.background-image]="'url(' + game?.image + ')'">
-    </div>
-    <button class="carousel-next"><img src="../../../assets/images/icon-button.png" alt=""></button>
+  <app-card-game-bold *ngFor="let game of games" [game]="game"></app-card-game-bold>
+  <button class="carousel-next"><img src="../../../assets/images/icon-button.png" alt=""></button>
 </div>

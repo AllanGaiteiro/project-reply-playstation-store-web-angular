@@ -1,0 +1,18 @@
+.game {
+  width: 190px;
+  height: 190px;
+  background: red;
+  margin: 5px;
+  box-shadow: 0px 0px 0px 2px #004c8a;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+.game-border {
+  margin: 0px;
+  border-radius: 8px;
+  border: 2px solid white;
+}
+.game-border:hover {
+  filter: contrast(90%);
+  border: 2px solid black;
+}
