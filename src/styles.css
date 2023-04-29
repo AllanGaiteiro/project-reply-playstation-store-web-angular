@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Inter;
+  src: url(./assets/font/Inter/static/Inter-Regular.ttf);
+}
+
 body {
   margin: 0px;
   padding: 0px;
