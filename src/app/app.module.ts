@@ -17,10 +17,10 @@ import { SectionDestaquesComponent } from './components/section-destaques/sectio
 import { SonyMoreAboutComponent } from './components/sony-more-about/sony-more-about.component';
 import { ButtonSectionComponent } from './shared/button-section/button-section.component';
 import { CardGameComponent } from './shared/card-game/card-game.component';
+import { CarrouselGameComponent } from './shared/carrousel-game/carrousel-game.component';
 import { MoreAboutSectionComponent } from './shared/more-about-section/more-about-section.component';
 import { NavigationPlaystationStoreComponent } from './shared/navigation-playstation-store/navigation-playstation-store.component';
 import { NavigationSonyComponent } from './shared/navigation-sony/navigation-sony.component';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,7 +41,8 @@ import { NavigationSonyComponent } from './shared/navigation-sony/navigation-son
     NavigationSonyComponent,
     NavigationPlaystationStoreComponent,
     CardGameComponent,
-    MoreAboutSectionComponent
+    MoreAboutSectionComponent,
+    CarrouselGameComponent
   ],
   imports: [
     BrowserModule
