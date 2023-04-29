@@ -1,10 +1,22 @@
 .header {
   width: calc(100vw - 20px);
   height: 41px;
+  position: sticky;
   margin: 0px;
   padding: 0px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: white;
+  transition: 0.5s;
+  top: -40px;
+  z-index: 2;
+}
+
+.header.fixed {
+  transition: 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
 }
