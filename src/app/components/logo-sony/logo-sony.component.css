@@ -7,9 +7,8 @@
   justify-content: end;
   text-align: center;
 }
-.logo-sony h2 {
-  padding: 0px 10px;
-  margin: 0px;
-  line-height: 36px;
-  text-align: center;
+.logo-sony img {
+  margin: 10px;
+  height: 13px;
+  width: 75px;
 }
