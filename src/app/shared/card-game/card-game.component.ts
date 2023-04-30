@@ -7,9 +7,14 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class CardGameComponent implements OnInit {
   @Input() backGroundImage = '';
+  @Input() width?: number;
   constructor() { }
 
   ngOnInit(): void {
+    if (!this.width) {
+      this.width = 290
+    }
+
   }
 
 }

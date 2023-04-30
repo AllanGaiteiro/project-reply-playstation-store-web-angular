@@ -1,3 +1,4 @@
-<div class="card" [style.background-image]="'url(' + backGroundImage + ')'">
+<div *ngIf="width" class="grid-card" [style.background-image]="'url(' + backGroundImage + ')'"
+  [style.width]="width + 'px'" [style.height]="width + 'px'">
 
 </div>
