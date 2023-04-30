@@ -2,6 +2,11 @@ button {
   border: none;
   border-radius: 999px;
   transition: 0.4s;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  text-align: center;
 }
 .primary {
   background: #0070cc;
