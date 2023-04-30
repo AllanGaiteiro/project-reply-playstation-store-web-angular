@@ -1,5 +1,5 @@
-<section>
-    <app-more-about-section title="Novos jogos" buttonText="Visualizar Mais" theme="secondary"></app-more-about-section>
-    <app-carrousel-game [games]="games"></app-carrousel-game>
+<section *ngIf="games">
+  <app-more-about-section title="Novos jogos" buttonText="Visualizar Mais" theme="secondary"></app-more-about-section>
+  <app-carrousel-game [games]="games"></app-carrousel-game>
 
 </section>
