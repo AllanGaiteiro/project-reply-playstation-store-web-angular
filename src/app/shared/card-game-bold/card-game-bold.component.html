@@ -1,4 +1,7 @@
 <div class="game-border">
-  <div class="game" [style.background-image]="'url(' + game?.image + ')'">
-  </div>
+  <a [routerLink]="['/game', game?.id]">
+    <div class="game" [style.background-image]="'url(' + game?.image + ')'">
+    </div>
+  </a>
+
 </div>

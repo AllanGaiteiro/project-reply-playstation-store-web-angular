@@ -6,6 +6,16 @@ import { Game } from '../models/games.interface';
   providedIn: 'root'
 })
 export class GamesService {
+  find(gameId: number) {
+    return new Promise<Game>((resolve, reject) => {
+      const game = games.find((g) => g.id === gameId)
+      if (game) {
+        resolve(game);
+      } else {
+        reject();
+      }
+    });
+  }
 
 
   constructor() { }

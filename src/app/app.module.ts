@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -58,12 +59,14 @@ const routes: Routes = [
     CarrouselGameComponent,
     SectionMoreAboutComponent,
     PageLatestComponent,
+    PageGameComponent,
     CardGameBoldComponent,
     GridSectionComponent
   ],
   imports: [
     RouterModule.forRoot(routes),
-    BrowserModule
+    BrowserModule,
+    CommonModule
   ], exports: [
     RouterModule
   ],

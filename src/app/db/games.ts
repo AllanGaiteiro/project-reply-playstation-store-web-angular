@@ -1,4 +1,6 @@
-export const games = [
+import { Game } from "../models/games.interface";
+
+export const games: Game[] = [
   {
     id: 0,
     title: 'EA SPORTS™ FIFA 23',

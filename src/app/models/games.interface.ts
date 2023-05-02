@@ -1,4 +1,8 @@
 export interface Game {
-  image: string;
-  tags: string[];
+  id: number,
+  title?: string,
+  image: string,
+  tags: string[],
+  createdBy?: string,
+  price?: number
 }
