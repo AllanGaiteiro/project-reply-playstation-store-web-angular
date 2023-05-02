@@ -17,18 +17,19 @@ import { PlaystationStarsMoreAboutComponent } from './components/playstation-sta
 import { SectionDestaquesComponent } from './components/section-destaques/section-destaques.component';
 import { SectionMoreAboutComponent } from './components/section-more-about/section-more-about.component';
 import { SonyMoreAboutComponent } from './components/sony-more-about/sony-more-about.component';
+import { PageGameComponent } from './pages/page-game/page-game.component';
 import { PageLatestComponent } from './pages/page-latest/page-latest.component';
 import { ButtonSectionComponent } from './shared/button-section/button-section.component';
+import { CardGameBoldComponent } from './shared/card-game-bold/card-game-bold.component';
 import { CardGameComponent } from './shared/card-game/card-game.component';
 import { CarrouselGameComponent } from './shared/carrousel-game/carrousel-game.component';
+import { GridSectionComponent } from './shared/grid-section/grid-section.component';
 import { MoreAboutSectionComponent } from './shared/more-about-section/more-about-section.component';
 import { NavigationPlaystationStoreComponent } from './shared/navigation-playstation-store/navigation-playstation-store.component';
 import { NavigationSonyComponent } from './shared/navigation-sony/navigation-sony.component';
-import { CardGameBoldComponent } from './shared/card-game-bold/card-game-bold.component';
-import { GridSectionComponent } from './shared/grid-section/grid-section.component';
 
 const routes: Routes = [
-
+  { path: 'game/:id', component: PageGameComponent },
   { path: 'latest', component: PageLatestComponent },
   { path: '**', redirectTo: '/latest' }
 ];
