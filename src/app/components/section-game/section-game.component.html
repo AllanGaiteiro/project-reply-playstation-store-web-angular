@@ -1,8 +1,8 @@
 <section class="game-container" *ngIf="game">
   <img class="game-image" [src]="game.backgroundImage" alt="">
   <div class="game-info">
-    <h1>{{game.title}}</h1>
-    <p class="game-created">{{game.createdBy}}</p>
+    <h1>{{game.title || 'Titulo do Jogo' }}</h1>
+    <p class="game-created">{{game.createdBy || 'empresa que criou'}}</p>
     <ul *ngIf="game.tags">
       <li *ngFor="let tag of game.tags">
         {{tag}}

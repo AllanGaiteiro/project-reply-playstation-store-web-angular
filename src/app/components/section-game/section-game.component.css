@@ -2,7 +2,7 @@
   position: relative;
   width: 100vw;
   height: 100vh;
-  background-color: black;
+  background-color: #090a0a;
   text-align: center;
 }
 
@@ -17,7 +17,8 @@
   position: absolute;
   top: 150px;
   left: 40px;
-  height: 354px;
+  min-height: 354px;
+  max-width: 470px;
   padding: 20px 40px;
   background-color: #242529;
   color: white;
