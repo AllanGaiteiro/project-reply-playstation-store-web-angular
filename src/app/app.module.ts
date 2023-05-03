@@ -16,6 +16,7 @@ import { LogoSonyComponent } from './components/logo-sony/logo-sony.component';
 import { PlaystationPlusMoreAboutComponent } from './components/playstation-plus-more-about/playstation-plus-more-about.component';
 import { PlaystationStarsMoreAboutComponent } from './components/playstation-stars-more-about/playstation-stars-more-about.component';
 import { SectionDestaquesComponent } from './components/section-destaques/section-destaques.component';
+import { SectionGameComponent } from './components/section-game/section-game.component';
 import { SectionMoreAboutComponent } from './components/section-more-about/section-more-about.component';
 import { SonyMoreAboutComponent } from './components/sony-more-about/sony-more-about.component';
 import { PageGameComponent } from './pages/page-game/page-game.component';
@@ -61,7 +62,8 @@ const routes: Routes = [
     PageLatestComponent,
     PageGameComponent,
     CardGameBoldComponent,
-    GridSectionComponent
+    GridSectionComponent,
+    SectionGameComponent,
   ],
   imports: [
     RouterModule.forRoot(routes),

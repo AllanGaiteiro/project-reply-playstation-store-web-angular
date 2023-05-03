@@ -24,8 +24,10 @@ export class PageGameComponent {
   ngOnInit() {
     if (this.gameId) {
       this.gameService.find(this.gameId).then((res) => {
-        console.log('res', res)
-        this.game = res;
+        const game = res;
+        game.backgroundImage = res.backgroundImage ? res.backgroundImage : res.image.replace('w=230', 'w=1920');
+        game.price = game.price ? game.price : 199.99; // para ajudar na visualização do estilo
+        this.game = game
       });
     }
 

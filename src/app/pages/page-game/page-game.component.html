@@ -1,5 +1,3 @@
-<div>
-  <div *ngIf="!!gameId">
-    <p>game {{gameId}}</p>
-  </div>
-</div>
+<main>
+  <app-section-game *ngIf="game" [game]="game"></app-section-game>
+</main>

@@ -57,6 +57,7 @@ export const games: Game[] = [
   {
     id: 7,
     title: 'Hogwarts Legacy',
+    backgroundImage: 'https://image.api.playstation.com/vulcan/ap/rnd/202208/0921/3XopdGAJGRy3xNQKnQDvaCRs.png?w=1920&thumb=false',
     image:
       "https://image.api.playstation.com/vulcan/ap/rnd/202011/0919/JmxLZt6exeqcKRz7BSmK8aId.png?w=230&thumb=false",
     tags: ["bestTem", 'PS5', 'EDIÇÃO STANDARD'],

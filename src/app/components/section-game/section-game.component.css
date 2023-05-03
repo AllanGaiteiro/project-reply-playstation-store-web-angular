@@ -1,0 +1,14 @@
+.game-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  text-align: center;
+}
+
+.game-image {
+  width: 100vw;
+  height: 325px;
+  object-fit: cover;
+  object-position: center -150px;
+}
