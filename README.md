@@ -1,29 +1,55 @@
-# ProjectReplyPlaystationStoreWebAngular
+# README - Clone do Playstation Store com Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
+Este projeto é um clone da Playstation Store, desenvolvido utilizando o framework Angular.
 
-link do projeto: [Pagina](https://reply-playstation-store-web.web.app/)
+## Funcionalidades
 
-## Development server
+- Listagem de jogos e categorias
+- Detalhes de jogos 
+- Adição de jogos ao carrinho de compras
+- Finalização da compra (apenas simulação)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Tecnologias utilizadas
 
-## Code scaffolding
+- [Angular](https://angular.io/)
+- [Firebase](https://firebase.google.com/)
+- HTML
+- CSS
+- JavaScript
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Instalação
 
-## Build
+1. Faça o download do repositório em sua máquina:
+```
+git clone https://github.com/AllanGaiteiro/project-reply-playstation-store-web-angular.git
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. Em seguida, navegue até o diretório do projeto e instale as dependências através do comando:
+```
+npm install
+```
 
-## Running unit tests
+3. Inicie a aplicação localmente:
+```
+ng serve
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+4. Acesse a aplicação no seu navegador em:
+```
+http://localhost:4200/
+```
 
-## Running end-to-end tests
+## Deploy
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+O projeto foi hospedado no Firebase e pode ser acessado através do link:
+https://reply-playstation-store-web.web.app/latest
 
-## Further help
+Para realizar o deploy em outro servidor, basta seguir as instruções na documentação do framework Angular ou servidor de sua preferência.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Contribuições
+
+Contribuições são sempre bem-vindas. Caso encontre algum problema ou bug, abra uma issue ou submeta um pull request. 
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para mais detalhes.
