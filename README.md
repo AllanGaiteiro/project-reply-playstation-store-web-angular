@@ -24,19 +24,6 @@ Este projeto é um clone da Playstation Store, desenvolvido utilizando o framewo
         <td><a href="https://www.w3schools.com/css/" title="CSS"><img src="https://img.icons8.com/color/48/000000/css3.png"/></a></td>
         <td><a href="https://www.javascript.com/" title="JavaScript"><img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/></a></td>
     </tr>
-    <style>
-    td {
-    padding: 10px;
-    }
-    img {
-    display: block;
-    margin: 0 auto;
-    }
-    table {
-    border-collapse: collapse;
-    margin-bottom: 20px;
-    }
-    </style>
 </table>
 
 
